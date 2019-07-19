@@ -62,7 +62,7 @@ namespace CalculeInterest
             var interestInWallet2 = c2wallet2.TotalInterestOnWallet();
             c2person.AddWalletToPerson(c2wallet2);
 
-            var totalIntePersonIn2Wallet = c2person.TotalInterest();
+            var totalIntePersonIn2Wallet = c2person.TotalInterest();   
 
             Console.WriteLine("////  CASE 2 ////");
             Console.WriteLine("Visa Card interest:" + "$" + c2visaCardInterest1.ToString());
