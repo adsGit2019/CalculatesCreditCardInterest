@@ -12,7 +12,7 @@ namespace CalculeInterest
         static void Main(string[] args)
         {
             ////// CASE 1 //////
-            var person = new Person();
+            var person = new Person();  
             var wallet = new Wallet();
 
             var creditcard1 = new VisaCard();

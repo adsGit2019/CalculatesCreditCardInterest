@@ -13,14 +13,6 @@ namespace CalculateInterest.UnitTests
     [TestClass]
     public class CasesTest
     {
-        //[TestInitialize]
-        //public void SetUp()
-        //{
-        //    var person = new Person();
-        //    var wallet = new Wallet();
-        //    var visacard = new VisaCard();
-        //}
-
         [TestMethod]
         public void Case1_WhenCalled_ReturnTotalInterestOn1WalletFor1PersonWith3Card()
         {
